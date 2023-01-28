@@ -7,7 +7,7 @@ import Error from "../components/Error";
 // Styles import
 import "../styles.css";
 
-// TODO
+// TODO:
 // Try to put all functions into a single file for export.
 // Try to remove use of pokeNames
 
