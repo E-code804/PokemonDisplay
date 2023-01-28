@@ -1,0 +1,145 @@
+@import url("https://fonts.googleapis.com/css2?family=Nunito:wght@300;400;500;700&display=swap");
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: "Nunito", sans-serif;
+}
+
+body {
+  background-color: #252525;
+  height: 100%;
+}
+
+/* App.js */
+.main-div {
+  color: aliceblue;
+  width: 100%;
+  height: 100%;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+/* Input.js */
+.inputs {
+  width: 100%;
+  display: flex;
+}
+
+/* Display.js */
+.pokemon-display {
+  width: 75%;
+  background-color: rgb(25, 25, 25);
+  border-radius: 10px;
+  height: 540px;
+  position: relative;
+}
+
+@media screen and (max-width: 992px) {
+  .pokemon-display {
+    height: auto;
+  }
+}
+
+/* Pokemon.js */
+.pokemon {
+  margin: 10px;
+  padding: 10px;
+  height: 250px;
+  background-color: #252525;
+  border: #d3d3d3 solid 1px;
+  border-radius: 10px;
+}
+
+.poke-info {
+  display: flex;
+  justify-content: space-between;
+  font-size: 1rem;
+  height: 25px;
+}
+
+#poke-img {
+  height: 60px;
+}
+
+.pokemon div {
+  position: relative;
+}
+
+#trash {
+  position: absolute;
+  top: 0;
+  right: 0;
+  height: 15px;
+  cursor: pointer;
+}
+
+.poke-link {
+  text-decoration: none;
+}
+
+.poke-name {
+  color: aliceblue;
+  text-decoration: underline;
+  cursor: pointer;
+}
+
+.poke-name:hover {
+  opacity: 0.8;
+}
+
+/* Error.js */
+.error {
+  border: red solid 1px;
+  border-radius: 10px;
+  padding: 5px;
+}
+
+.error p {
+  margin: 0;
+}
+
+/* PokePage.js */
+.profile-info {
+  display: flex;
+  flex-direction: column;
+  text-align: left;
+}
+
+.center-container {
+  width: 100%;
+  height: 540px;
+  position: relative;
+}
+
+.center {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 100%;
+}
+
+/* StatBar.js */
+.stat-bar-span {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.stat-bar {
+  height: 5px;
+  width: 70%;
+  margin-top: 5px;
+}
+
+.no-pad {
+  padding: 0;
+}
+
+#profile-img {
+  height: 100px;
+}
